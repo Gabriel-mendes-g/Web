@@ -1,0 +1,3658 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons",
+    "Helvetica Neue","Helvetica","Arial",sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+}
+
+#img-mobile, #bag-mobile{
+    display: none;
+}
+
+
+
+#navbar-sec-um-apple {
+    background: #000;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    font-size: 9pt;
+    width: 100%;
+}
+
+#desk-list {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 0%;
+    list-style: none;
+}
+
+#desk-list li {
+    display: inline;
+    list-style: none;
+    padding: 0% 2.1% 0% 0%;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+#nav-mobile {
+    display: none;
+}
+
+#img-mobile{
+    display: none;
+}
+
+#img-apple-sect {
+    display: inline;
+    padding: .2% 2% 0% 0%
+}
+
+.nav-opition-prod {
+    background: #FBFBFD;
+    margin: 0%;
+    height: 95px;
+    padding: 8px 0;
+}
+
+.nav-opition-prod ul {
+    text-align: center;
+    margin: 0%;
+}
+
+.nav-opition-prod ul li a{
+    font-size: 12.5px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: block;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+
+}
+
+.nav-opition-prod ul li a:hover{
+    color: #06c;
+}
+
+.nav-opition-prod ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px 0px 4px;
+    margin: 0px -2px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 -0.1176470588em;
+    padding: 0 20px;
+    
+}
+
+#iphone-14-pro-bar {
+    background-image: url(img/img_items/iphone-14-pro.png);
+    width: 40px;
+    height: 54px;
+    background-size: 40px 54px;
+    background-repeat: no-repeat;
+    margin: 0 18.09px 7px;
+}
+
+#iphone-14-bar {
+    background-image: url(img/img_items/iPhone-14.png);
+    width: 38px;
+    height: 54px;
+    background-size: 38px 54px;
+    background-repeat: no-repeat;
+    margin: 0 8.09px 7px;
+}
+
+#iphone-13-bar {
+    background-image: url(img/img_items/iPhone-13.png);
+    width: 36px;
+    height: 54px;
+    background-size: 36px 54px;
+    background-repeat: no-repeat;
+    margin: 0px 9px 7px 8.98px;
+}
+
+#iphone-se-bar {
+    background-image: url(img/img_items/iPhone-se.png);
+    width: 19px;
+    height: 54px;
+    background-size: 19px 54px;
+    background-repeat: no-repeat;
+    margin: 0px 18.34px 7px;
+}
+
+#iphone-12-bar {
+    background-image: url(img/img_items/iPhone-12.png);
+    width: 22px;
+    height: 54px;
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+    margin: 0 15.85px 7px 15.84px;
+}
+
+#comparar-bar{
+    background-image: url(img/img_items/Comparar.png);
+    width: 45px;
+    height: 54px;
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+    margin: 0 4.93px 7px;
+}
+
+#AirPods-bar{
+    background-image: url(img/img_items/AirPods.png);
+    width: 39px;
+    height: 54px;
+    background-size: 39px 54px;
+    background-repeat: no-repeat;
+    margin: 0 2px 7px 1.98px;
+}
+
+#AirTag-bar{
+    background-image: url(img/img_items/AirTag.png);
+    width: 30px;
+    height: 54px;
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+    margin: 0 2.29px 7px 2.28px;
+}
+
+#acessorios-bar{
+    background-image: url(img/img_items/Acessórios.png);
+    width: 40px;
+    height: 54px;
+    background-size: 40px 54px;
+    background-repeat: no-repeat;
+    margin: 0 10.28px 7px 10.26px;
+}
+
+#ios-bar{
+    background-image: url(img/img_items/IOS-16.png);
+    width: 32px;
+    height: 54px;
+    background-size: 32px 54px;
+    background-repeat: no-repeat;
+    margin: 0 1.875px 7px 1.85px;
+}
+
+#comprar-ip-bar{
+    background-image: url(img/img_items/Comprar-iPhone.png);
+    width: 58px;
+    height: 54px;
+    background-size: 58px 54px;
+    background-repeat: no-repeat;
+    margin: 0 15.75px 7px;
+}
+
+.ads-ip-promo {
+    background-color: #0071e3;
+    animation: mudarcor 1s ease-in-out 1.8s forwards;
+    text-align: center;
+    height: 30px;
+    margin-top: 0px;
+    padding-top: .5%;
+
+}
+
+@keyframes mudarcor {
+    0% {
+      background-color: #0071e3;
+    }
+    100% {
+      background-color: #F5F5F7;
+    }
+}
+
+.ads-ip-promo span {
+    font-size: 12px;
+    letter-spacing: -0.01em;
+}
+
+.ads-ip-promo span a {
+    font-size: 12px;
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.ads-ip-promo span a:hover {
+    text-decoration: underline;
+
+} 
+
+.section-row-um {
+    padding-top: 113px;
+    text-align: center;
+    border-bottom: 15px solid #F2F2F2;
+    
+}
+
+.novo-span {
+    font-size: 17px;
+}
+
+#tile-iphone-14 {
+    width: 100px; 
+    height: 21px;
+    margin-top: 10px;
+    background-size: 100px 21px;
+    background-repeat: no-repeat;
+    background-image: url(/img/ip-14-logo.jpg);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bgfont-ip {
+    font-size: 48px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#2ca2b4,#5598de 40%,#7f87ff 46%,#f65aad 56%,#ec3d43 61%);
+    padding: .5px 0px 20px 0px;
+    overflow: hidden;
+    background-color: #2ca2b4 0%;
+    margin: 0px 20px 0px 0px;
+
+}
+
+.preco-ip {
+    padding: .5px 0px 20px 0px;
+    font-size: 21px;
+    line-height: 1.38;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.b-comprar-ip {
+    cursor: pointer;
+    display: inline;
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 935px;
+    border: #0071e3;
+    background: #0071e3;
+    
+}
+
+.b-comprar-ip:hover {
+    background: #0077ED;
+    border: #0077ED;
+}
+
+.list-comprar {
+    margin-top: 35px;
+    
+}
+
+.list-comprar li{
+    display: inline;
+    list-style: none;
+    padding: 0px 30px 0px 10px;
+}
+
+.b-comprar-ip a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.saiba-mais {
+    color: #2997ff;
+    text-decoration: none;
+    letter-spacing: inherit;
+    cursor: pointer;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.saiba-mais:hover {
+    text-decoration: underline;
+}
+
+#figure {
+    margin-bottom: 0px;
+    background-image: url(/img/img-iPhone.png);
+    width: 788px;
+    height: 717px;
+    background-size: 788px 717px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -374px;
+}
+
+.section-row-dois {
+    padding-top: 113px;
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 15px solid #F2F2F2;
+}
+
+.div-row-dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-novo-sect-dois {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.div-ip-pro-logo{
+    margin-top: 10px;
+}
+
+#ip-pro-logo {
+    background-image: url(/img/ip-14-pro-logo.jpg);
+    width: 140px;
+    height: 20px;
+    background-size: 140px 20px;
+    background-repeat: no-repeat;
+    margin-top: 9px;
+}
+
+.bgFont-pro-ip {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+    will-change: transform;
+    padding-top: .5px;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    margin: 16px 0px 22px 0px;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.preco-pro-ip {
+    line-height: 1.38;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.list-pro-comprar {
+    margin-top: 30px;
+}
+
+.list-pro-comprar li {
+    display: inline;
+    list-style: none;
+    margin: 0px 30px 0px 10px;
+}
+
+.div-figure-pro{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#figure-pro-ip {
+    margin-top: 0px;
+    background-image: url(/img/img-iPhone-14-pro.png);
+    width: 991px;
+    height: 574px;
+    background-size: 991px 574px;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+
+.section-row-tres {
+    display: flex;
+    align-items: center;
+    background-color: #FBFBFD;
+}
+
+.div-row-tres {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+
+.esp-ip-se{
+    margin-top: 0px;
+    margin-left: 150px;
+    text-align: center;
+    
+}
+
+#ip-se-logo {
+    width: 96px;
+    height: 22px;
+    background-size: 96px 22px;
+    background-repeat: no-repeat;
+    background-image: url(/img/ip-se-logo.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -48px;
+}
+
+.bgFont-se-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 793.750px;
+    background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+    color: transparent;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 1.083;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica, Neue, Helvetica, Arial, sans-serif
+}
+
+#figure-se-ip {
+    width: 494px;
+    height: 830px;
+    background-size: 494px 830px;
+    background-repeat: no-repeat;
+    background-image: url(/img/img-iphone-se.png);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.preco-ip-se {
+    font-size: 21px;
+    line-height: 1.38;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.list-se-comprar {
+    margin-top: 30px;
+}
+
+.list-se-comprar li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 42px 0px -3px;
+}
+
+.comparar {
+    background-color: #fff;
+    padding-top: 116px;
+    padding-bottom: 119px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.bgFont-comp {
+    font-size: 48px;
+    font-family: SR Pro Icons, sans-serif;
+}
+
+
+.dispositivos-comp {
+        max-width: 940px;
+        margin-top: 68px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid; 
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(10,auto);
+        grid-row-gap: 40px;
+        grid-column-gap: 34px;
+        grid-template-areas: 
+        "ip-14-pro-comp ip-14-comp ip-13-comp ip-se-comp"
+        "display-pro display-14 display-13 display-se"
+        "Dynamic Dynamic-14 Dynamic-13 Dynamic-se"
+        "sos sos-14 sos-13 sos-se"
+        "camera camera-14 camera-13 camera-se"
+        "bateria bateria-14 bateria-13 bateria-se"
+        "Chip Chip-14 Chip-13 Chip-se"
+        "face-id face-id-14 face-id-13 Touch-id-se"
+        "rede-5g rede-5g-14 rede-5g-13 rede-5g-se";
+
+}
+
+br.small {
+    display: none;
+}
+
+.dispositivos-comp p {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.ip-14-pro-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d2d2d7;
+    grid-area: ip-14-pro-comp;
+}
+
+#fig-ip-14-pro {
+    width: 190px;
+    height: 257px;
+    background-image: url(/img/ip-14-pro.png);
+    background-repeat: no-repeat;
+    background-size: 190px 257px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#fig-cores-14-pro {
+    width: 68px;
+    height: 14px;
+    background-image: url(/img/color-ip.png);
+    background-size: 68px 14px;
+    background-repeat: no-repeat;
+}
+
+.decripition-comp-ip-14-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#ip-14-pro-branco {
+    width: 137px;
+    height: 20px;
+    background-image: url(/img/ip-14-pro-logo-branca.png);
+    background-repeat: no-repeat;
+    background-size: 137px 20px;
+    margin-bottom: 0px;
+}
+
+.decripition-comp-ip-14-pro p {
+    font-size: 17px;
+    margin-top: 7px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.button-comp {
+    margin-top: 16px;
+    padding: 4px 11px;
+    background-color: #0071e3;
+    color: #fff;
+    border: #0071e3;
+    border-radius: 980px;
+    cursor: pointer;
+}
+
+.button-comp:hover {
+    background-color: #0077ED;
+}
+
+
+.saiba-mais-ip {
+    padding-top: 11px;
+}
+
+.saiba-mais-ip a {
+    color: #2ca2b4;
+    text-decoration: none;
+}
+
+.saiba-mais-ip:hover {
+    text-decoration: underline;
+}
+
+
+.display-pro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    grid-area: display-pro;
+}
+
+.Dynamic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: Dynamic;
+}
+
+.display-pro p {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 11.2px 0px 0px;
+}
+
+#fig-dynamic {
+    background-image: url(/img/img-especificacao/Dynamic.png);
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+    width: 38px;
+    height: 38px;
+
+}
+
+.Dynamic p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: sos;
+}
+
+#fig-sos {
+    background-image: url(/img/img-especificacao/sos.png);
+    background-repeat: no-repeat;
+    background-size: 39px 39px;
+    width: 39px;
+    height: 39px;
+}
+
+.camera {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: camera;
+
+}
+
+#fig-camera {
+    background-image: url(/img/img-especificacao/camera-pro.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+}
+
+.camera p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bateria {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: bateria;
+
+
+}
+
+#fig-bateria {
+    background-image: url(/img/img-especificacao/bateria.png);
+    width: 43px;
+    height: 22px;
+    background-size: 43px 22px;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+.bateria p {
+    margin: 0px;
+}
+
+.Chip {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: Chip;
+}
+
+#fig-chip {
+    background-image: url(/img/img-especificacao/a16.png);
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+.Chip p {
+    margin: 0px;
+}
+
+.face-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-area: face-id;
+
+}
+
+#fig-face-id {
+    background-image: url(/img/img-especificacao/face-id.png);
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+.face-id p {
+    margin: 0px;
+}
+
+.rede-5g {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 3px;
+    padding-bottom: 45px;
+    grid-area: rede-5g;
+}
+
+#fig-rede-5g {
+    background-image: url(/img/img-especificacao/rede-celular.png);
+    width: 50px;
+    height: 36px;
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+.rede-5g p {
+    margin: 0px;
+}
+
+.ip-14-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d2d2d7;
+    grid-area: ip-14-comp;
+}
+
+#fig-ip-14 {
+    background-image: url(/img/ip-14.png);
+    width: 180px;
+    height: 257px;
+    background-size: 180px 257px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.decripition-comp-ip-14 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.decripition-comp-ip-14 p {
+    font-size: 17px;
+    margin-top: 7px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#fig-cores-14 {
+    background-image: url(/img/color-ip-14.png);
+    background-size: 86px 14px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ip-14-branco {
+    width: 98px;
+    height: 20px;
+    background-image: url(/img/ip-14-logo.jpg);
+    background-size: 98px 20px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.display-14{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    grid-area: display-14;
+}
+
+.display-14 p {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 11.2px 0px 0px;
+
+}
+
+.Dynamic-14{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: Dynamic-14;
+}
+
+.sos-14 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: sos-14;
+}
+
+.camera-14 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: camera-14;
+
+}
+
+#fig-camera-14 {
+    background-image: url(/img/img-especificacao/camera-dupla.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+}
+
+.camera-14 p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bateria-14 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: bateria-14;
+}
+
+.bateria-14 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Chip-14 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: Chip-14;
+
+}
+
+#fig-chip-14 {
+    background-image: url(/img/img-especificacao/a15.png);
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+}
+
+.Chip-14 p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.face-id-14 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: face-id-14;
+
+}
+
+.face-id-14 p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.rede-5g-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 3px;
+    padding-bottom: 45px;
+    grid-area: rede-5g-14;
+}
+
+#fig-rede-5g {
+    background-image: url(/img/img-especificacao/rede-celular.png);
+    width: 50px;
+    height: 36px;
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+.rede-5g-14 p {
+    margin: 0px;
+}
+
+
+.ip-13-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d2d2d7;
+    grid-area: ip-13-comp;
+}
+
+#fig-ip-13 {
+    background-image: url(/img/ip-13.png);
+    width: 161px;
+    height: 257px;
+    background-size: 161px 257px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.decripition-comp-ip-13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#fig-cores-13 {
+    background-image: url(/img/color-ip-13.png);
+    background-size: 104px 14px;
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ip-13-branco {
+    width: 98px;
+    height: 20px;
+    background-image: url(/img/ip-13-logo.png);
+    background-size: 98px 20px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.display-13{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    grid-area: display-13;
+}
+
+.display-13 p {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 11.2px 0px 0px;
+
+}
+
+.Dynamic-13{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: Dynamic-13;
+}
+
+.sos-13 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: sos-13;
+}
+
+.camera-13 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    grid-area: camera-13;
+
+}
+
+#fig-camera-13 {
+    background-image: url(/img/img-especificacao/camera-dupla.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+}
+
+.camera-13 p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bateria-13 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: bateria-13;
+}
+
+.bateria-13 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Chip-13 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: Chip-13;
+
+}
+
+#fig-chip-13 {
+    background-image: url(/img/img-especificacao/a15.png);
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+}
+
+.Chip-13 p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.face-id-13 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: face-id-13;
+
+}
+
+.face-id-13 p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.rede-5g-13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 3px;
+    padding-bottom: 45px;
+    grid-area: rede-5g-13;
+}
+
+.rede-5g-13 p {
+    margin: 0px;
+}
+
+
+.ip-se-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d2d2d7;
+    grid-area: ip-se-comp;
+}
+
+#fig-ip-se {
+    background-image: url(/img/ip-SE.png);
+    width: 151px;
+    height: 257px;
+    background-size: 151px 257px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.decripition-comp-ip-se {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#fig-cores-se {
+    background-image: url(/img/color-ip-se.png);
+    background-size: 50px 14px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ip-se-branco {
+    width: 98px;
+    height: 20px;
+    background-image: url(/img/ip-se-logo.jpg);
+    background-size: 98px 20px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.display-se{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    grid-area: display-se;
+}
+
+.display-se h4 {
+    margin-bottom: 0px;
+}
+
+
+.display-se p {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 11.2px 0px 0px;
+
+}
+
+.Dynamic-se{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: Dynamic-se;
+}
+
+.sos-se {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: sos-se;
+}
+
+.camera-se {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    grid-area: camera-se;
+
+}
+
+#fig-camera-se {
+    background-image: url(/img/img-especificacao/camera-avancado.png);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+}
+
+.camera-se p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bateria-se {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: bateria-se;
+}
+
+.bateria-se p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Chip-se {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: Chip-se;
+
+}
+
+#fig-chip-se {
+    background-image: url(/img/img-especificacao/a15.png);
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+}
+
+.Chip-se p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Touch-id-se {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: Touch-id-se;
+
+}
+
+#fig-Touch-id {
+    background-image: url(/img/img-especificacao/Tounch-ID.png);
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+}
+
+.Touch-id-se p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.rede-5g-se {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 3px;
+    padding-bottom: 45px;
+    grid-area: rede-5g-se;
+}
+
+.rede-5g-se p {
+    margin: 0px;
+}
+
+.comparar-opition{
+    margin-top: 40px;
+}
+
+.comparar-opition li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+.comparar-opition li a{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #2ca2b4;
+}
+
+.comparar-opition li a:hover {
+    text-decoration: underline;
+}
+
+.acessorios-destaque {
+    margin: 0 auto;
+    text-align: center;
+    background: #F2F2F2;
+    padding-top: 110px;
+}
+
+.h2-destaque {
+font-size: 56px;
+line-height: 1.0714285714;
+font-weight: 600;
+letter-spacing: -0.005em;
+margin: 0 0 70px;
+font-family: SF Pro Display,SF Pro Icons,Helvetica 
+Neue,Helvetica,Arial,sans-serif;
+}
+
+.div-magsafe {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+
+.text-magsafe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.txt-mg {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.txt-mg h3 {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica
+    Neue,Helvetica,Arial,sans-serif;
+}
+
+.txt-mg p {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica 
+    Neue,Helvetica,Arial,sans-serif;
+    width: 290px;
+    margin: 16.8px 55px 0px;
+
+}
+
+.txt-mg ul {
+    margin: 0 auto;
+    list-style: none;
+    padding: 10px 0 0 ;
+}
+
+.txt-mg li { 
+    margin: 0 0.5em;
+    display: inline-block;
+}
+
+.txt-mg a {
+    text-decoration: none;
+    color: #06c;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica 
+    Neue,Helvetica,Arial,sans-serif;
+}
+
+.txt-mg a:hover {
+    text-decoration: underline;
+}
+
+.figure-magsafe {
+    position: relative;
+    overflow: visible;
+}
+
+#fig-mg {
+    background-image: url(/img/img_items/mgsafe.jpeg);
+    width: 633px;
+    height: 463px;
+    background-repeat: no-repeat;
+    background-size: 633px 463px;
+    margin: 82px 35px 0 0;
+}
+
+.div-AirTag {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+.figure-Airtag {
+    display: flex;
+    flex-direction: row;
+}
+
+#fig-AT {
+    background-image: url(/img/img_items/fig-Airtag.png);
+    width: 819px;
+    height: 531px;
+    background-repeat: no-repeat;
+    background-size: 740px 532px;
+    margin: 0px;
+}
+
+.txt-airtag {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.txt-airtag h3 { 
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica
+    Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 0px;
+}
+
+.txt-airtag p {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: 16.8px
+}
+
+.txt-airtag ul {
+    margin: 0 auto;
+    list-style: none;
+    padding: 10px 0 0 ;
+}
+
+.txt-airtag ul li{
+    margin: 0 0.5em;
+    display: inline-block;
+
+}
+
+.txt-airtag ul li a {
+    text-decoration: none;
+    color: #06c;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica 
+    Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.txt-airtag ul li a:hover {
+    text-decoration: underline;
+}
+
+.shop-ecessorios { 
+    margin-top: 52px;
+    padding: 0 30px;
+    font-size: 24px;
+    line-height: 1.3334133333;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+}
+
+.shop-ecessorios a {
+    text-decoration: none;
+    color: #06c;
+}
+
+.shop-ecessorios a:hover {
+    text-decoration: underline;
+}
+
+.end-section {
+    padding-top: 83px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.tamanho-div {
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+.flex-end {
+    display: flex;
+    justify-content: center;
+}
+
+.frete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 370px;
+}
+
+#fig-frete {
+    background-image: url(/img/frete.png);
+    width: 51px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: 51px 75px;
+}
+
+.frete h2 {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+    margin: 0;
+}
+
+.frete p {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+    margin: 8.4px 0 0;
+}
+
+.frete a{
+    text-decoration: none;
+    color: #06c;
+}
+
+.frete a:hover{
+    text-decoration: underline;
+}
+
+.pagamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 370px;
+}
+
+#fig-pagamento{
+    background-image: url(/img/pagamento.png);
+    width: 55px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: 55px 75px;
+}
+
+.pagamento h2 {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+    margin: 0;
+}
+
+.pagamento p {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+    margin: 8.4px 0 0;
+}
+
+.pagamento a{
+    text-decoration: none;
+    color: #06c;
+}
+
+.pagamento a:hover{
+    text-decoration: underline;
+}
+
+.ajuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 370px;
+}
+
+#fig-ajuda{
+    background-image: url(/img/ajuda.png);
+    width: 71px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: 71px 75px;
+}
+
+.ajuda h2 {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+    margin: 0;
+}
+
+.ajuda p {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,
+    Arial,sans-serif;
+    margin: 8.4px 0 0;
+}
+
+.ajuda a{
+    text-decoration: none;
+    color: #06c;
+}
+
+.ajuda a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px) {
+    #navbar-sec-um-apple {
+        color: #000;
+        margin: 0%;
+        padding: 0%;
+        padding-top: 0%;
+        align-items: center;
+    } 
+
+    #nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    #desk-list { 
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+        height: 0px;
+        top: 0;
+        left: 0;
+        top: 40px;
+        background: #000;
+        color: #fff;
+        visibility: hidden;
+        overflow-y: hidden;
+        text-align: center;
+        transition: .6s;
+        z-index: 1000;
+        align-items: center;
+        
+    }
+
+    nav.active #desk-list {
+        height: calc(100vh - 50px);
+        display: flex;
+        visibility: visible;
+        overflow-y: auto;
+        align-items: center;
+      }
+
+      #desk-list li {
+        text-align: left;
+        padding: 9px 0;
+        border-bottom: 1px solid grey;
+        width: 196px;
+        font-size: 17px;
+    }
+
+    
+
+
+    #img-apple-sect {
+        display: none;
+    }
+
+    #btn-mobile {
+        display: flex;
+        background: none;
+        border: none;
+        padding-top: 10px;
+    }
+
+    #hamburguer {
+        color: #fff;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburguer::after, #hamburguer::before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+    }
+
+    nav.active #hamburguer {
+        color: transparent;
+    }
+
+    nav.active #hamburguer::before {
+        transform: rotate(135deg);
+        color: #0066CC;
+    }
+
+    nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        position: relative;
+        top: -7px;
+        color: #0066CC;
+    }
+    
+    #desk-list .remove {
+        visibility: hidden;
+    }
+
+    #img-mobile{ 
+        display: block;
+    }
+
+    nav.active #img-mobile{ 
+        margin-right: 50%;
+    }
+
+    #bag-mobile {
+        display: block;
+        padding-right: 5px;
+    }
+
+    nav.active #bag-mobile {
+        display: none;
+    }
+
+    .section-row-um {
+        padding-top: 33px;
+    }
+
+    .nav-opition-prod ul {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+
+  
+
+    ::-webkit-scrollbar{
+        background: transparent;
+    }
+
+    .ads-ip-promo {
+        height: 82px;
+    }
+
+    .bgfont-ip {
+        font-size: 40px;
+        line-height: 1.1;
+        margin: 0px
+    }
+
+    .preco-ip {
+        font-size: 11px;
+    }
+
+    .b-comprar-ip {
+        font-size: 11px;
+    }
+
+    .saiba-mais {
+        font-size: 11px;
+    }
+
+    .typography-caption{
+        font-size: 12px;
+    }
+
+    #figure{
+        width: 326px;
+        height: 317px;
+        background-size: 330px 317px;
+        margin-left: auto;
+        left: -28px;
+        margin-right: auto;
+    }
+
+    #figure-pro-ip {
+        width: 277px;
+        height: 284px;
+        background-size: 277px 284px;
+        margin-left: 0px;
+    }
+
+    .section-row-tres {
+        display: block;
+    }
+
+    .div-row-tres {
+        margin-left: 0;
+        margin-right: 0;
+        align-items: baseline;
+        display: block;
+    }
+
+    #figure-se-ip {
+        width: 282px;
+        height: 470px;  
+        background-size: 282px 470px;   
+        margin-left: auto; 
+        margin-right: auto;  
+    }
+
+    .esp-ip-se {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .bgFont-se-text {
+        font-size: 22px;
+        width: 194.75px;
+        margin: 0 auto;
+    }
+
+    .preco-ip-se{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .list-se-comprar li {
+        margin: 0px 54px 0px -27px;
+    }
+
+    .section-compare {
+        padding-top: 65px;
+        padding-bottom: 66px;
+    }
+
+    .bgFont-comp {
+        font-size: 27px;
+        width: 280px;
+    }
+
+    .dispositivos-comp {
+        max-width: 280px;
+        margin-top: 43px;
+        grid-column-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(20,auto);
+        grid-template-areas: 
+        "ip-14-pro-comp ip-14-comp"
+        "display-pro display-14 "
+        "Dynamic Dynamic-14 "
+        "sos sos-14"
+        "camera camera-14 "
+        "bateria bateria-14 "
+        "Chip Chip-14 "
+        "face-id face-id-14 "
+        "rede-5g rede-5g-14 "
+        "ip-13-comp ip-se-comp"
+        "display-13 display-se"
+        "Dynamic-13 Dynamic-se"
+        "sos-13 sos-se"
+        "camera-13 camera-se"
+        "bateria-13 bateria-se"
+        "Chip-13 Chip-se"
+        "face-id-13 Touch-id-se"
+        "rede-5g-13 rede-5g-se";
+        
+    }
+
+    .comparar {
+        width: 280px;
+    }
+
+    .div-comparar {
+        width: 280px;
+    }
+
+    #fig-ip-14-pro {
+        width: 123px;
+        height: 165px;
+        background-size: 123px 165px;
+        margin: 0px;
+    }
+
+
+    #fig-ip-14 {
+        width: 115px;
+        height: 165px;
+        background-size: 115px 165px;
+        margin: 0px;
+    }
+
+
+    .ip-14-pro-comp{
+        width: 137px;
+    }
+
+    .decripition-comp-ip-14-pro{
+        width: 135px;
+        margin-top: 29px;
+    }
+
+    .decripition-comp-ip-14 {
+        width: 135px;
+    }
+
+    .ip-14-comp{
+        width: 135px;
+    }
+
+    #ip-14-pro-branco{
+        width: 122px;
+        height: 18px;
+        background-size: 122px 18px;
+        margin: 0px;
+    }
+
+    .cores-ip-14-pro{
+        width: 135px;
+        height: 19px;
+    }
+
+    #fig-cores-14-pro {
+        width: 93px;
+        height: 19px;
+        background-size: 93px 19px;
+        margin: 10px 10px 7px 20px;
+    }
+
+    #fig-cores-14 {
+        width: 114px;
+        height: 19px;
+        background-size: 114px 19px;
+        margin: 0px;
+    }
+
+    .cores-ip-14 {
+        width: 135px;
+        height: 19px;
+        margin: 10px 10px 7px 20px;
+    }
+
+    .display-pro p {
+        font-size: 12px;
+    }
+
+    .Dynamic p{
+        font-size: 12px;
+    }
+
+    .sos p {
+        font-size: 12px;
+    }
+
+    .camera{
+        max-width: 135px;
+        font-size: 12px;
+    }
+
+    .bateria p{
+        font-size: 12px;
+    }
+    .Chip p{
+        font-size: 12px;
+    }
+    .face-id p{
+        font-size: 12px;
+    }
+    .rede-5g p{
+        font-size: 12px;
+    }
+
+    .camera p{
+        font-size: 12px;
+    }
+
+    .display-14 p {
+        font-size: 12px;
+    }
+
+    .Dynamic-14 p{
+        font-size: 12px;
+    }
+
+    .sos-14 p {
+        font-size: 12px;
+    }
+
+    .camera-14{
+        max-width: 135px;
+        font-size: 12px;
+    }
+
+    .camera-14 p{
+        font-size: 12px;
+    }
+
+    .p-cmr {
+        max-width: 135px;
+        font-size: 12px;
+    }
+
+    #p-camera {
+        max-width: 88px;
+        font-size: 12px;
+    }
+
+    .bateria-14 p{
+        font-size: 12px;
+    }
+    .Chip-14 p{
+        font-size: 12px;
+    }
+    .face-id-14 p{
+        font-size: 12px;
+    }
+    .rede-5g-14 p{
+        font-size: 12px;
+    }
+
+    #fig-ip-13 {
+        width: 105px;
+        height: 165px;
+        background-size: 105px 165px;
+        margin: 0px;
+    }
+
+    #fig-cores-13{
+        background-image: url(/img/color-ip-13-mob.png);
+        width: 92px;
+        height: 46px;
+        background-repeat: no-repeat;
+        background-size: 92px 46px;
+    }
+
+    #fig-ip-se{
+        width: 99px;
+        height: 165px;
+        background-size: 99px 165px;
+        margin: 0px;
+    }
+
+    .dispositivos-comp p, .dispositivos-comp span {
+        font-size: 12px;
+        width: 135px;
+    }
+
+    .decripition-comp-ip-13, .decripition-comp-ip-se {
+        width: 135px;
+    }
+
+    #fig-cores-se {
+        width: 68px;
+        height: 19px;
+        background-size: 68px 19px;
+        margin-bottom: 40px;
+    }
+
+    .display-se h4 {
+        margin-bottom: 23px;
+    }
+
+    .sos-se p {
+        font-size: 12px;
+    }
+
+    .camera-se{
+        max-width: 135px;
+        font-size: 12px;
+    }
+
+    .bateria-se p{
+        font-size: 12px;
+    }
+    .Chip-se p{
+        font-size: 12px;
+    }
+    .face-id-se p{
+        font-size: 12px;
+    }
+    .rede-5g-se p{
+        font-size: 12px;
+    }
+
+    .display-13 h4 {
+        margin-bottom: 23px;
+    }
+
+    .sos-13 p {
+        font-size: 12px;
+    }
+
+    .camera-13{
+        max-width: 135px;
+        font-size: 12px;
+    }
+
+    .bateria-13 p{
+        font-size: 12px;
+    }
+    .Chip-13 p{
+        font-size: 12px;
+    }
+    .face-id-13 p{
+        font-size: 12px;
+    }
+    .rede-5g-13 p{
+        font-size: 12px;
+    }
+
+    .comparar-opition li {
+        margin-right: 10px;
+        margin: 0 -11px;
+    }
+
+    .comparar-opition li span {
+        font-size: 16px;
+        margin-right: -14px;
+        margin-left: 11px;
+    
+    }
+
+    .comparar-opition{
+        padding-right: 45px
+    }
+
+    .h2-destaque {
+        font-size: 32px;
+    }
+
+    .txt-mg h3 {
+        font-size: 32px;
+    }
+
+    
+
+    .txt-mg {
+        max-width: 246px;
+    }
+    
+    .txt-mg p {
+        
+        font-size: 17px;
+        width: 245px;
+        margin: 5.8px -1px 0px
+    }
+
+    .txt-mg a {
+        font-size: 15px;
+    }
+
+    .div-magsafe {
+        flex-direction: column;
+        max-width: 280px;
+    }
+
+    #fig-mg {
+        width: 233px;
+        height: 182px;
+        background-size: 233px 182px;
+        margin-right: 0px
+    }
+
+    .div-AirTag {
+        flex-direction: column;
+        
+    }
+
+    .fig-Airtag {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #fig-AT {
+        width: 294px;
+        height: 307px;
+        background-size: 355px 307px;
+        background-image: url(/img/img_items/atag-mobile.jpeg);
+    }
+
+    .figure-Airtag{
+        flex-direction: column-reverse;
+        
+    }
+
+    .txt-airtag{
+        flex-direction: column;
+        margin: 0px;
+        justify-content: left;
+        text-align: left;
+    }
+
+    .txt-airtag h3 {
+        font-size: 32px;
+        margin-top: 75px;
+        margin-left: 103px;
+    }
+
+    .txt-airtag p {
+        font-size: 17px;
+        margin-top: 28px;
+        margin-left: 10px;
+        width: 281px;
+        text-align: center;
+    }
+
+    .txt-airtag ul li a {
+        font-size: 15px;
+    }
+
+    .flex-end {
+        flex-direction: column;
+        
+    }
+
+    .frete {
+        margin: 0 auto;
+        width: 288px;
+    }
+
+    .frete p, .frete h2 {
+        font-size: 17px
+    }
+
+    .pagamento {
+        margin: 0 auto;
+        width: 288px;
+    }
+
+    .pagamento p, .pagamento h2 {
+        font-size: 17px
+    }
+
+    .ajuda {
+        margin: 0 auto;
+        width: 288px;
+    }
+
+    .ajuda p, .ajuda h2 {
+        font-size: 17px
+    }
+
+
+
+
+
+
+
+    
+}
+
+@media screen and (min-width: 333px) {
+
+    #figure {
+        left: 2px;
+    }
+
+    #figure-pro-ip {
+        margin-left: 22px;
+    }
+
+    .bgFont-se-text {
+        width: 348.75px
+    }
+
+    #ip-se-logo{
+        margin-left: -37px;
+    }
+
+    .preco-ip-se {
+        font-size: 13px;
+        margin-left: 14px;
+    }
+
+    .list-se-comprar li {
+        margin: 0px 29px 0px -2px;
+    }
+
+    .div-magsafe, .div-AirTag {
+        max-width: 300px;
+    }
+
+    #fig-AT {
+        width: 294px;
+        height: 307px;
+        background-size: 355px 307px;
+        background-image: url(/img/img_items/atag-mobile.jpeg);
+    }
+
+    
+
+    .frete {
+        width: 337px;
+    }
+
+    .pagamento {
+        width: 337px;
+    }
+
+    .ajuda {
+        width: 337px;
+    }
+
+
+}
+
+@media screen and (min-width: 433px) {
+    #desk-list li {
+        width: 354px;
+    }
+    
+    
+    #figure-pro-ip {
+        margin-left: 37px;
+    }
+
+    #figure-se-ip {
+        width: 282px;
+        height: 470px;
+        background-size: 282px 470px;
+        
+    }
+
+    .bgFont-se-text {
+        width: 443.75px;
+    }
+
+    #ip-se-logo{
+        margin-left: -37px;
+    }
+
+    .preco-ip-se {
+        font-size: 13px;
+        margin-left: 14px;
+    }
+
+    .list-se-comprar li {
+        margin: 0px 29px 0px -2px;
+    }
+
+    .div-magsafe, .div-AirTag {
+        min-width: 400px;
+        max-width: 600px;
+    }
+
+    .frete {
+        width: 460px;
+    }
+
+    .pagamento {
+        width: 460px;
+    }
+
+    .ajuda {
+        width: 460px;
+    }
+
+
+}
+
+@media screen and (min-width: 733px) {
+    #desk-list {
+        width: 100%px;
+    }
+
+    #desk-list li {
+        width: 600px;
+    }
+    
+    .div-magsafe {
+        flex-direction: row;
+        max-width: 700px;
+    }
+
+    .div-AirTag {
+        max-width: 700px;
+    }
+
+    .figure-Airtag {
+        flex-direction: row;
+    }
+   
+    .txt-airtag h3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-airtag p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-airtag ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #fig-AT {
+        background-image: url(/img/img_items/fig-Airtag.png);
+        width: 416px;
+        height: 378px;
+        background-size: 416px 379px;
+    }
+    
+
+    .flex-end {
+        flex-direction: row;
+    } 
+
+    #fig-mg {
+        width: 349px;
+        height: 273px;
+        background-size: 349px 273px;
+    }
+
+    #figure { 
+        width: 517px;
+        height: 393px;
+        background-size: 517px 393px;
+    }
+
+    #figure-pro-ip {
+        width: 517px;
+        height: 393px;
+        background-size: 517px 393px;
+    }
+
+    .preco-ip {
+        font-size: 14px;
+    }
+
+    .b-comprar-ip, .saiba-mais {
+        font-size: 17px;
+    }
+
+    .dispositivos-comp {
+        grid-column-gap: 10px;
+        margin-top: 43px;
+        max-width: 940px;
+    }    
+
+    .comparar {
+        width: 485px;
+    }
+
+    .ip-14-pro-comp {
+        width: auto;
+    }
+
+    .ip-14-comp {
+        width: auto;
+    }
+
+    .decripition-comp-ip-14-pro {
+        width: 245px;
+    }
+    
+
+    .decripition-comp-ip-14 {
+        width: 245px;
+    }
+
+    .bgFont-comp {
+        width: 501px;
+    }
+
+    .camera, .camera-14, .camera-13, .camera-se {
+        max-width: 100%;
+    }
+
+
+    .dispositivos-comp p, .dispositivos-comp span {
+        width: 100%;
+    }
+
+    .comparar-opition li span {
+        font-size: 16px;
+        margin-left: 42px;
+        margin-right: 0px   ;
+    }
+
+    .comparar-opition {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 833px) {
+    #desk-list {
+        width: 693px;
+    }
+    
+    #btn-mobile, #img-mobile, #bag-mobile {
+        display: none;
+    }
+
+    #navbar-sec-um-apple {
+        background: #000;
+        color: #fff;
+        height: 50px;
+        text-align: center;
+        font-size: 9pt;
+        width: 100%;
+    }
+    
+    #desk-list {
+        display: flex;
+        flex-direction: row;
+        position :unset;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        background: #000;
+        color: #fff;
+        overflow-y: hidden;
+        visibility: visible;
+        transition: none;
+        z-index: none;
+        margin-left: 20px;
+    }
+    
+    
+    #desk-list li {
+        text-align: center;
+        align-items: center;
+        border-bottom: 0px;
+        display: inline;
+        list-style: none;
+        padding: 2% 3.1% 0% 0%;
+        margin: 0;
+        width: auto;
+        font-size: 11px;
+    }
+
+    nav.active #desk-list {
+        display: flex;
+      }
+
+    #img-apple-sect {
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding-top: 1.2%;
+    }
+
+    #desk-list .remove {
+       visibility: visible;
+      }
+
+    .ads-ip-promo {
+        height: 31px;
+    }
+
+    .div-AirTag, .div-magsafe {
+        min-width: 800px;
+    }
+
+    #fig-AT {
+        background-image: url(/img/img_items/fig-Airtag.png);
+        width: 518px;
+        height: 378px;
+        background-size: 518px 379px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1069px) {
+    .bgFont-se-text {
+        font-size: 48px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .preco-ip-se {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .div-row-tres {
+        display: flex;
+        align-items: center;
+    }
+
+    #figure-se-ip {
+        width: 494px;
+        height: 830px;
+        background-size: 494px 830px;
+    }
+
+    .div-comparar {
+        width: 900px;
+    }
+
+    .comparar {
+        width: 900px;
+    }
+
+    .bgFont-comp {
+        margin: 0 auto;
+    }
+
+    .dispositivos-comp {
+        max-width: 940px;
+        margin-top: 68px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(10,auto);
+        grid-row-gap: 40px;
+        grid-column-gap: 34px;
+        grid-template-areas: 
+        "ip-14-pro-comp ip-14-comp ip-13-comp ip-se-comp"
+        "display-pro display-14 display-13 display-se"
+        "Dynamic Dynamic-14 Dynamic-13 Dynamic-se"
+        "sos sos-14 sos-13 sos-se"
+        "camera camera-14 camera-13 camera-se"
+        "bateria bateria-14 bateria-13 bateria-se"
+        "Chip Chip-14 Chip-13 Chip-se"
+        "face-id face-id-14 face-id-13 Touch-id-se"
+        "rede-5g rede-5g-14 rede-5g-13 rede-5g-se";
+    
+    }
+    .ip-14-pro-comp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #d2d2d7;
+        grid-area: ip-14-pro-comp;
+    }
+    
+    #fig-ip-14-pro {
+        width: 190px;
+        height: 257px;
+        background-image: url(/img/ip-14-pro.png);
+        background-repeat: no-repeat;
+        background-size: 190px 257px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    #fig-cores-14-pro {
+        width: 68px;
+        height: 14px;
+        background-image: url(/img/color-ip.png);
+        background-size: 68px 14px;
+        background-repeat: no-repeat;
+    }
+    
+    .decripition-comp-ip-14-pro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #ip-14-pro-branco {
+        width: 137px;
+        height: 20px;
+        background-image: url(/img/ip-14-pro-logo-branca.png);
+        background-repeat: no-repeat;
+        background-size: 137px 20px;
+        margin-bottom: 0px;
+    }
+    
+    .decripition-comp-ip-14-pro p {
+        font-size: 17px;
+        margin-top: 7px;
+        font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    }
+    
+    .button-comp {
+        margin-top: 16px;
+        padding: 4px 11px;
+        background-color: #0071e3;
+        color: #fff;
+        border: #0071e3;
+        border-radius: 980px;
+        cursor: pointer;
+    }
+    
+    .button-comp:hover {
+        background-color: #0077ED;
+    }
+    
+    
+    .saiba-mais-ip {
+        padding-top: 11px;
+    }
+    
+    .saiba-mais-ip a {
+        color: #2ca2b4;
+        text-decoration: none;
+    }
+    
+    .saiba-mais-ip:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .display-pro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        grid-area: display-pro;
+    }
+    
+    .Dynamic {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: Dynamic;
+    }
+    
+    .display-pro p {
+        font-size: 14px;
+        line-height: 1.4285914286;
+        font-weight: 400;
+        letter-spacing: -0.016em;
+        font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        margin: 11.2px 0px 0px;
+    }
+    
+    #fig-dynamic {
+        background-image: url(/img/img-especificacao/Dynamic.png);
+        background-repeat: no-repeat;
+        background-size: 38px 38px;
+        width: 38px;
+        height: 38px;
+    
+    }
+    
+    .Dynamic p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .sos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: sos;
+    }
+    
+    #fig-sos {
+        background-image: url(/img/img-especificacao/sos.png);
+        background-repeat: no-repeat;
+        background-size: 39px 39px;
+        width: 39px;
+        height: 39px;
+    }
+    
+    .camera {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: camera;
+    
+    }
+    
+    #fig-camera {
+        background-image: url(/img/img-especificacao/camera-pro.png);
+        background-repeat: no-repeat;
+        background-size: 36px 36px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .camera p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .bateria {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: bateria;
+    
+    
+    }
+    
+    #fig-bateria {
+        background-image: url(/img/img-especificacao/bateria.png);
+        width: 43px;
+        height: 22px;
+        background-size: 43px 22px;
+        background-repeat: no-repeat;
+        margin-bottom: 8px;
+    }
+    
+    .bateria p {
+        margin: 0px;
+    }
+    
+    .Chip {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: Chip;
+    }
+    
+    #fig-chip {
+        background-image: url(/img/img-especificacao/a16.png);
+        width: 38px;
+        height: 38px;
+        background-size: 38px 38px;
+        background-repeat: no-repeat;
+        margin-bottom: 8px;
+    }
+    
+    .Chip p {
+        margin: 0px;
+    }
+    
+    .face-id {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        grid-area: face-id;
+    
+    }
+    
+    #fig-face-id {
+        background-image: url(/img/img-especificacao/face-id.png);
+        width: 38px;
+        height: 38px;
+        background-size: 38px 38px;
+        background-repeat: no-repeat;
+        margin-bottom: 8px;
+    }
+    
+    .face-id p {
+        margin: 0px;
+    }
+    
+    .rede-5g {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 1px solid #d2d2d7;
+        margin-bottom: 3px;
+        padding-bottom: 45px;
+        grid-area: rede-5g;
+    }
+    
+    #fig-rede-5g {
+        background-image: url(/img/img-especificacao/rede-celular.png);
+        width: 50px;
+        height: 36px;
+        background-size: 50px 36px;
+        background-repeat: no-repeat;
+        margin-bottom: 8px;
+    }
+    
+    .rede-5g p {
+        margin: 0px;
+    }
+    
+    .ip-14-comp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #d2d2d7;
+        grid-area: ip-14-comp;
+    }
+    
+    #fig-ip-14 {
+        background-image: url(/img/ip-14.png);
+        width: 180px;
+        height: 257px;
+        background-size: 180px 257px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .decripition-comp-ip-14 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .decripition-comp-ip-14 p {
+        font-size: 17px;
+        margin-top: 7px;
+        font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    }
+    
+    #fig-cores-14 {
+        background-image: url(/img/color-ip-14.png);
+        background-size: 86px 14px;
+        background-repeat: no-repeat;
+        width: 86px;
+        height: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ip-14-branco {
+        width: 98px;
+        height: 20px;
+        background-image: url(/img/ip-14-logo.jpg);
+        background-size: 98px 20px;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+    
+    .display-14{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        grid-area: display-14;
+    }
+    
+    .display-14 p {
+        font-size: 14px;
+        line-height: 1.4285914286;
+        font-weight: 400;
+        letter-spacing: -0.016em;
+        font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        margin: 11.2px 0px 0px;
+    
+    }
+    
+    .Dynamic-14{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: Dynamic-14;
+    }
+    
+    .sos-14 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: sos-14;
+    }
+    
+    .camera-14 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: camera-14;
+    
+    }
+    
+    #fig-camera-14 {
+        background-image: url(/img/img-especificacao/camera-dupla.png);
+        background-repeat: no-repeat;
+        background-size: 36px 36px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .camera-14 p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .bateria-14 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: bateria-14;
+    }
+    
+    .bateria-14 p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .Chip-14 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: Chip-14;
+    
+    }
+    
+    #fig-chip-14 {
+        background-image: url(/img/img-especificacao/a15.png);
+        width: 38px;
+        height: 38px;
+        background-repeat: no-repeat;
+        background-size: 38px 38px;
+    }
+    
+    .Chip-14 p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .face-id-14 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: face-id-14;
+    
+    }
+    
+    .face-id-14 p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    
+    .rede-5g-14 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 1px solid #d2d2d7;
+        margin-bottom: 3px;
+        padding-bottom: 45px;
+        grid-area: rede-5g-14;
+    }
+    
+    #fig-rede-5g {
+        background-image: url(/img/img-especificacao/rede-celular.png);
+        width: 50px;
+        height: 36px;
+        background-size: 50px 36px;
+        background-repeat: no-repeat;
+        margin-bottom: 8px;
+    }
+    
+    .rede-5g-14 p {
+        margin: 0px;
+    }
+    
+    
+    .ip-13-comp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #d2d2d7;
+        grid-area: ip-13-comp;
+    }
+    
+    #fig-ip-13 {
+        background-image: url(/img/ip-13.png);
+        width: 161px;
+        height: 257px;
+        background-size: 161px 257px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .decripition-comp-ip-13 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #fig-cores-13 {
+        background-image: url(/img/color-ip-13.png);
+        background-size: 104px 14px;
+        background-repeat: no-repeat;
+        width: 104px;
+        height: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ip-13-branco {
+        width: 98px;
+        height: 20px;
+        background-image: url(/img/ip-13-logo.png);
+        background-size: 98px 20px;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+    
+    .display-13{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        grid-area: display-13;
+    }
+    
+    .display-13 p {
+        font-size: 14px;
+        line-height: 1.4285914286;
+        font-weight: 400;
+        letter-spacing: -0.016em;
+        font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        margin: 11.2px 0px 0px;
+    
+    }
+    
+    .Dynamic-13{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: Dynamic-13;
+    }
+    
+    .sos-13 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: sos-13;
+    }
+    
+    .camera-13 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        grid-area: camera-13;
+    
+    }
+    
+    #fig-camera-13 {
+        background-image: url(/img/img-especificacao/camera-dupla.png);
+        background-repeat: no-repeat;
+        background-size: 36px 36px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .camera-13 p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .bateria-13 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: bateria-13;
+    }
+    
+    .bateria-13 p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .Chip-13 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: Chip-13;
+    
+    }
+    
+    #fig-chip-13 {
+        background-image: url(/img/img-especificacao/a15.png);
+        width: 38px;
+        height: 38px;
+        background-repeat: no-repeat;
+        background-size: 38px 38px;
+    }
+    
+    .Chip-13 p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .face-id-13 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: face-id-13;
+    
+    }
+    
+    .face-id-13 p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    
+    .rede-5g-13 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 1px solid #d2d2d7;
+        margin-bottom: 3px;
+        padding-bottom: 45px;
+        grid-area: rede-5g-13;
+    }
+    
+    .rede-5g-13 p {
+        margin: 0px;
+    }
+    
+    
+    .ip-se-comp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #d2d2d7;
+        grid-area: ip-se-comp;
+    }
+    
+    #fig-ip-se {
+        background-image: url(/img/ip-SE.png);
+        width: 151px;
+        height: 257px;
+        background-size: 151px 257px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .decripition-comp-ip-se {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #fig-cores-se {
+        background-image: url(/img/color-ip-se.png);
+        background-size: 50px 14px;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ip-se-branco {
+        width: 98px;
+        height: 20px;
+        background-image: url(/img/ip-se-logo.jpg);
+        background-size: 98px 20px;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+    
+    .display-se{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        grid-area: display-se;
+    }
+    
+    .display-se h4 {
+        margin-bottom: 0px;
+    }
+    
+    
+    .display-se p {
+        font-size: 14px;
+        line-height: 1.4285914286;
+        font-weight: 400;
+        letter-spacing: -0.016em;
+        font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        margin: 11.2px 0px 0px;
+    
+    }
+    
+    .Dynamic-se{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: Dynamic-se;
+    }
+    
+    .sos-se {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: sos-se;
+    }
+    
+    .camera-se {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        grid-area: camera-se;
+    
+    }
+    
+    #fig-camera-se {
+        background-image: url(/img/img-especificacao/camera-avancado.png);
+        background-repeat: no-repeat;
+        background-size: 36px 36px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .camera-se p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .bateria-se {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: bateria-se;
+    }
+    
+    .bateria-se p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .Chip-se {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: Chip-se;
+    
+    }
+    
+    #fig-chip-se {
+        background-image: url(/img/img-especificacao/a15.png);
+        width: 38px;
+        height: 38px;
+        background-repeat: no-repeat;
+        background-size: 38px 38px;
+    }
+    
+    .Chip-se p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    .Touch-id-se {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-area: Touch-id-se;
+    
+    }
+    
+    #fig-Touch-id {
+        background-image: url(/img/img-especificacao/Tounch-ID.png);
+        width: 38px;
+        height: 38px;
+        background-repeat: no-repeat;
+        background-size: 38px 38px;
+    }
+    
+    .Touch-id-se p {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    
+    .rede-5g-se {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 1px solid #d2d2d7;
+        margin-bottom: 3px;
+        padding-bottom: 45px;
+        grid-area: rede-5g-se;
+    }
+    
+    .rede-5g-se p {
+        margin: 0px;
+    }
+
+    .div-AirTag, .div-magsafe {
+        min-width: 996px;
+    }
+
+    #fig-AT {
+        width: 711px;
+        height: 378px;
+        background-size: 545px 379px;
+    }
+    
+}
+
+@media screen and (min-width: 1100px) {
+    .nav-opition-prod ul {
+        display: block;
+    }
+
+    #desk-list {
+        width: 100%;
+        position: unset;
+    }
+
+    #desk-list li, #img-apple-sect {
+        padding-top: 1%;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    #figure {
+        margin-bottom: 0px;
+        background-image: url(/img/img-iPhone.png);
+        width: 788px;
+        height: 717px;
+        background-size: 788px 717px;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 50%;
+        margin-left: -374px;
+    }
+    #figure-pro-ip {
+        margin-top: 0px;
+        background-image: url(/img/img-iPhone-14-pro.png);
+        width: 991px;
+        height: 574px;
+        background-size: 991px 574px;
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+    }
+    #figure-se-ip {
+        width: 494px;
+        height: 830px;
+        background-size: 494px 830px;
+        background-repeat: no-repeat;
+        background-image: url(/img/img-iphone-se.png);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
